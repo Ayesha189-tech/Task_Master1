@@ -1,0 +1,80 @@
+/* Forgot Password & Login Page Styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    background: #f8f9fa;
+}
+
+.container {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    width: 80%; /* Reduced button width */
+    padding: 10px; /* Reduced padding */
+    background: #bd1e51;
+    color: white;
+    border: none;
+    border-radius: 15px; /* Added border-radius like signup button */
+    font-size: 14px; /* Reduced font size */
+   margin:8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #a01644;
+    transform: scale(1.05);
+}
+
+p {
+    color: red;
+    font-size: 14px;
+}
+
+.forgot-password {
+    margin-top: 10px;
+    font-size: 12px; /* Smaller font size */
+    text-align: center; /* Align to the left */
+  
+}
+
+.forgot-password a {
+    display: inline-block;
+    color: #bd1e51;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px; /* Smaller padding */
+    border-radius: 10px; /* Softer border-radius */
+    transition: 0.3s ease-in-out;
+    font-size: 12px; /* Smaller text size */
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+    color: #a01644;
+}
